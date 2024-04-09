@@ -1,0 +1,300 @@
+*{
+    background-color: #000;
+    background-image: url(./image/image4.jpeg);
+    background-repeat: no-repeat;
+    font-family: 'Raleway' , sans-serif;
+
+
+}
+
+
+.banner{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-left: 1000px;
+}
+
+.heading{
+
+    font-size: 40px;
+    position: absolute;
+    font-family: 'Ralway' , sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 23px;
+    background: transparent;
+    color: rgb(175,238,240);
+}
+
+.heading{
+
+    cursor: pointer;
+}
+
+.h{
+    position: absolute;
+    font-family: 'Ralway' , sans-serif;
+    font-size: 26px;
+    margin-left: -300px;
+    margin-top: 20px;
+    transition: 0.15s;
+    background: transparent;
+    color: rgb(175,238,240);
+    border: black;
+}
+
+.h:hover{
+
+    cursor: pointer;
+    text-decoration: none;
+    text-indent: 3px;
+    transition: 0.15s;
+
+}
+
+.h:active{
+    opacity: 0.6;
+    transition: 0.15s;
+    text-decoration: none;
+    transition-timing-function: ease-out;
+}
+
+.a{
+    position: absolute;
+    font-family: 'Ralway' , sans-serif;
+    font-size: 26px;
+    margin-left: -140px;
+    margin-top: 20px;
+    transition: 0.15s;
+    background: transparent;
+    color: rgb(175,238,240);
+}
+
+.a:hover{
+
+    cursor: pointer;
+    text-decoration: none;
+    text-indent: 3px;
+    transition: 0.15s;
+
+}
+
+.h:active{
+    opacity: 0.6;
+    transition: 0.15s;
+    text-decoration: none;
+    transition-timing-function: ease-out;
+}
+
+.c{
+    position: absolute;
+    font-family: 'Ralway' , sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+    transition: 0.15s;
+    background: transparent;
+    color: rgb(175,238,240);
+}
+
+.c:hover{
+    
+    cursor: pointer;
+    text-decoration: none;
+    text-indent: 3px;
+    transition: 0.15s;
+
+}
+
+.c:active{
+    opacity: 0.6;
+    transition: 0.15s;
+    transition-timing-function: ease-out;
+
+}
+
+
+.login-cards{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.login-card{
+    margin-top: 190px;
+    width: 500px;
+    height: auto;
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 3px 50px 0 rgba(0,0,0,0.2), 0 1px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 45px;
+}
+
+.login-card-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    gap: 65px;
+    margin: 65px 30px 30px;
+    width: auto;
+    height: auto;
+}
+
+.form-items{
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: transparent;
+    background: transparent;
+}
+
+.email{
+    color: rgb(175,238,240);
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    box-shadow: 0 3px 50px 0 rgba(0,0,0,0.2), 0 1px 50px 0 rgba(0,0,0,0.19);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    background: transparent;
+}
+
+.Login-Tag{
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: rgb(175,238,240);
+}
+
+.password{
+    color: rgb(175,238,240);
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    box-shadow: 0 3px 50px 0 rgba(0,0,0,0.2), 0 1px 50px 0 rgba(0,0,0,0.19);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: transparent;
+    background: transparent;
+}
+
+.buttom-item{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-left: 90px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 15px;
+    transition: 0.15s;
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: transparent;
+    background: transparent;
+}
+
+.buttom-item:hover{
+
+    cursor: pointer;
+    color: #f2f4f6;
+    background-color: #1d1e22;
+    transition: 0.15s;
+    text-indent: 3px;
+}
+
+.buttom-item:active{
+
+    opacity: 0.7;
+
+}
+
+.forget-password-item{
+     display: flex; 
+    align-items: center;
+    justify-content:  center;
+    margin-top: 15px;
+    transition: 0.15s;
+    background: transparent;
+    background-blend-mode: overlay;
+    /* backdrop-filter: blur(12px); */
+    /* -webkit-backdrop-filter : blur(12px); */
+    background-color: transparent;
+    background: transparent;
+    color: rgb(175,238,240);
+}
+
+.create-account-item{
+    color: rgb(175,238,240);
+    margin-left: 10px;
+    margin-top: 10px;
+    background: transparent;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: transparent;
+    background: transparent;
+}
+
+.password-item{
+    color: rgb(175,238,240);
+    background-color: transparent;
+    background: transparent;
+}
+
+.fp{
+    color: rgb(175,238,240);
+    background-color: transparent;
+    background: transparent;
+}
+
+.dha{
+    color: rgb(175,238,240);
+    background-color: transparent;
+    background: transparent;
+}
+
+.su{
+    color: rgb(175,238,240);
+    background-color: transparent;
+    background: transparent;
+}
